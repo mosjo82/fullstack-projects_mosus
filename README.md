@@ -1,4 +1,5 @@
 # fullstack-projects_mosus
 
-resume.html & day1-portfolio  - Portfolio
-c_home & others  - Website
+1 Portfolio
+2 Portfolio + CSS
+3 Website
