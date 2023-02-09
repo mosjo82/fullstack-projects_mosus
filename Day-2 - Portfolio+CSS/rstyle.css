@@ -1,0 +1,102 @@
+*{
+    padding:0px;
+    margin: 0px;
+    text-decoration: none;
+}
+body{
+    background-image: url(Web_back0.jpg);
+    color: white;
+}
+body #links{
+    text-align: center;
+    text-decoration: none
+}
+
+body .verse{
+    margin:80px 40px 10px 40px;
+}
+
+body .verse:hover{
+    padding:11px;
+    color: ivory;
+    background-color: rgb(226, 64, 64);
+    border-radius: 10px;
+    transition-duration: 2s;
+}
+body .wave-top{
+    margin:0px;
+    padding:0px;
+}
+#nav-like{
+    padding-top: 120px;
+    margin:70px 50px 70px 50px;
+    background-color: gold;
+}
+#nav-like::before{
+    content: url("MJ0.png");
+    width: 30%;
+    margin:0px;
+    float:left;
+}
+
+#per_name{
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 45px;
+    margin-top:15px;
+    margin:10px;
+    margin-left:725px;
+    color: rgb(255, 255, 255);
+}
+#location_nm{
+    color: rgb(255,255,255);
+    font-family: Montserrat;
+    margin:10px;
+    margin-left:885px;
+}
+#per_name:hover{
+    font-size: 50px;
+    transition-duration: 1.5s;
+}
+h2{
+    float: left;
+    margin-left: 05px;
+    padding: 20px;
+    border-radius: 15px;
+}
+h2:hover{
+    color: black;
+    background-color: gold;
+    transition-duration: 1.34s;
+}
+/* table{
+    background-color: black;
+} */
+.personal_para p{
+    float: left;
+    margin:15px;
+    margin-left: 25px;
+    line-height: 32px;
+}
+/* .projects .pla{
+    margin:80px;
+} */
+ul{
+    margin:30px;
+    list-style-type: none;
+    line-height: 27px;
+}
+.links a{
+    color: white;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    background-color: transparent;
+    transition-duration: 750ms;
+}
+.links #git:hover{
+    background-color: #238636;
+}
+.links #linin:hover{
+    background-color: #0a66c2;
+}
