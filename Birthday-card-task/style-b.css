@@ -1,0 +1,167 @@
+*{
+    margin:0%;
+    padding: 0%;
+    font-family: montserrat;
+}
+#date{
+    text-align: center;
+    padding:10px;
+    color: white;
+    background-color:rgb(54, 162, 245) ;
+    border-radius: 7px 7px 0 0;
+}
+#month{
+    text-align: center;
+    padding:10px;
+    font-size: 20px;
+    color: rgb(255, 195, 45);
+    background-color:rgb(255, 255, 255) ;
+}
+#year{
+    text-align: center;
+    padding:10px;
+    color: white;
+    background-color:rgb(54, 162, 245) ;
+    border-radius: 0 0 7px 7px;
+    transition-duration: 1.2s;
+}
+.picture #m-img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    transition-duration: 1s;
+    border-radius: 8px;
+}
+
+.picture #m-img:hover{
+    width:16%;
+}
+.main-para{
+    margin: 50px;
+    line-height: 30px;
+}
+.arg{
+    padding:10px;
+    color: white;
+    background-color: rgb(54, 162, 245); 
+    border-radius: 3px 17px 3px 17px;
+    transition-duration: 1s;
+}
+.arg:hover{
+    border:5px;
+    border-color: rgb(54, 162, 245);
+    background-color: rgba(54, 162, 245, 0.151);
+    color: rgb(54, 162, 245);
+}
+.psg{
+    padding:10px;
+    color: rgb(218, 75, 28);
+    background-color: rgb(1, 66, 106); 
+    border-radius: 8px 2px 2px 8px;
+    transition-duration: 790ms;
+}
+.goat{
+    padding:10px;
+    margin:10px;
+    color: rgb(255, 184, 52);
+    background-color: rgb(201, 9, 89); 
+    border-radius: 8px 20px 20px 8px;
+    transition-duration: 1790ms;
+}
+.bdor{
+    padding:10px;
+    color: rgb(255, 194, 82);
+    background-color: rgb(0, 0, 0); 
+    border-radius: 50px 8px 50px 8px;
+    transition-duration: 1790ms;
+}
+.gold{
+    padding:10px;
+    color: rgb(0,0,0);
+    background-color: rgb(255, 194, 82); 
+    border-radius: 30px 30px 18px 18px;
+    transition-duration: 1790ms;
+}
+.fcb{
+    padding:10px;
+    color: #FFED02;
+    background-image:linear-gradient(#004D98,#A50044); 
+    border-radius: 30px 30px 18px 18px;
+    transition-duration: 1.790s;
+}
+.fcb:hover{
+    background-image:linear-gradient(#A50044,#004D98); 
+}
+a{
+    text-decoration: none;
+}
+.fifa{
+    padding:10px;
+    margin: 30px;
+    color: #fefdea;
+    font-size: larger;
+    background-color:#56042C; 
+    border-radius: 30px;
+    transition-duration: 1790ms;
+}
+.fifa:hover{
+    color: #56042C;
+    background-color:#fefdea;
+}
+#w-cup{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 50px;
+}
+#b-cup{
+    padding: 20px;
+    margin: 50px;
+}
+#g-cup{padding: 20px;
+    margin: 50px;
+}
+#w-cup img{
+    border-radius: 70%;
+    transition-duration: 1.2s;
+}
+#w-cup img:hover{
+    rotate: 8deg;
+}
+#b-cup img{
+    border-radius: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    transition-duration: 1s;
+}
+#b-cup img:hover{
+    rotate: -8deg;
+}
+#g-cup img{
+    border-radius: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    transition-duration: 1.2s;
+}
+#g-cup img:hover{
+    rotate: 8deg;
+}
+
+#desp-cup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 20px;
+    font-size: 35px;
+}
+.ftr{
+    margin-bottom: 70px;
+}
+.ftr:hover #year{
+    font-size: 70px;
+}
