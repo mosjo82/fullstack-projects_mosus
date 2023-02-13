@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="/bin_search.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Binary Search in JavaScript</title>
+</head>
+<body  class="bdy">
+    <style>
+        *{
+            font-family: montserrat;
+        }
+        .h1-head{
+            margin:40px;text-align: center;
+        }
+        .h4-head{
+            text-align: center;
+            line-height: 30px;
+        }
+        .inp-arr{
+            padding: 5px 18px;
+        }
+        .inp-element{
+            padding: 5px 12px;
+        }
+        .b-tag{
+            font-size: 24px;
+        }
+        .btn-pos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .btn{
+            font-family: montserrat;
+            color: white;
+            font-weight: bold;
+            padding: 12px 28px;
+            border: none;
+            border-radius: 20px;
+            background-color: rgb(2, 53, 203);
+            transition-duration: 750ms;
+        }
+        .btn:hover{
+            background-color: rgb(0, 27, 109);
+        }
+        #res{
+            text-align: center;
+        }
+
+    </style>
+    <h1 class="h1-head">
+        <u>Binary Search in JavaScript</u>
+    </h1>
+    <h4 class="h4-head"><b class="b-tag">The Sorted array:</b><br>
+        <div style="font-size: 18px;">[2,6,8,12,14,16,17,19,23]</div></h4><br>
+    <h4 class="h4-head"><b class="b-tag">The element to be found:</b><br>
+        <div style="font-size: 18px;">e = 23</div>
+    </h4><br>
+
+    <h2 id="res">Result:</h2>
+
+
+    <script>
+
+    function bin_srch(strt,end,e,s_arr){
+        
+        var mid = Math.floor((strt+end)/2);
+        
+        if(strt<=end){
+            if(s_arr[mid]==e){
+                flag = true;
+            }
+            
+            else if(s_arr[mid]<e){
+                var strt1 = mid+1;
+                bin_srch(strt1,end,e,s_arr);
+            }
+            
+            else if(s_arr[mid]>e){
+                var end1 = mid-1;
+                bin_srch(strt,end1,e,s_arr);
+            }
+        }
+        else{
+            flag = false;
+        }
+    }
+    let arr = [2,6,8,12,14,16,17,19,23];
+    var element = 8;
+    var end = arr.length-1;
+    var flag = null;
+
+    bin_srch(0,end,element,arr);
+
+if(flag){
+    document.getElementById("res").innerHTML = "Result: Element found";
+}
+else{
+    document.getElementById("res").innerHTML = "Result: Element not found";
+}
+
+</script>
+    
+</body>
+</html>
