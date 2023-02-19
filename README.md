@@ -1,5 +1,3 @@
 # fullstack-projects_mosus
 
-1 Portfolio
-2 Portfolio + CSS
-3 Website
+All the tasks which I've completed..
