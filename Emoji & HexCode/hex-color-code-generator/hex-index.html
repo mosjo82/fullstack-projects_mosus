@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body id="bdy">
+	<style>
+		#bdy{
+			background-color: beige;
+		}
+	</style>
+	<div>
+		<h1>Hex-Code Generator: </h1>
+		<h3 id="hcode">empty</h3>
+		<button type="button" onclick="hexac()">Generate</button>
+	</div>
+
+	<script>
+
+		function hexac(){
+			let hex = Math.random().toString(16);
+			hex = hex.slice(3,9);
+
+			document.getElementById("hcode").innerHTML = hex;
+			document.body.style.backgroundColor = "#"+hex;
+		}
+
+	</script>
+</body>
+</html>

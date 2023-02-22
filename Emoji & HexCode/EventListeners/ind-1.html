@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Event Listener</title>
+</head>
+<body>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        section{
+            display: flex;
+            flex-direction:row;
+            justify-content: center;
+            align-items: center;
+            margin-top: 70px;
+        }
+        #container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px;
+
+            width: 350px;
+            height: 350px;
+            box-shadow: 2px 5px 5px grey;
+            background-color: white;
+            font-size: 50px;
+
+        }
+        #circle-con{
+            font-family: montserrat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px;
+
+            width: 350px;
+            height: 350px;
+            box-shadow: 2px 5px 5px grey;
+            background-color: rgb(255, 239, 92);
+            border-radius: 50%;
+            font-size: 30px;
+            transition: 1s;
+        }
+    </style>
+    <section>
+        <div id="container">
+            <div id="emoji" onclick="switchEmoji()" style="cursor: pointer;">😊</div>
+        </div>
+    
+        <div id="circle-con" onmouseover="hovEmoji()" onmouseout="outEmoji()">
+            <div id="hov" style="cursor: pointer;">Hover</div>
+        </div>
+    </section>
+</body>
+</html>
