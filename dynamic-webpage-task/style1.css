@@ -1,0 +1,216 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    color: white;
+    scroll-behavior: smooth;
+}
+.announcement{
+    font-size: 14px;
+    padding:7px;
+    margin: 0%;
+    text-align: center;
+    background-color: #ff2a00;
+    color: white;
+    font-weight: lighter;
+}
+.nav{
+    background-color: black;
+    position: sticky;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:8px 10px;
+}
+.nav-list a{
+    padding:8px;
+    margin-right: 8px;
+    border-radius: 8px;
+    padding-right: 10px;
+    color:white;
+    text-decoration: none;
+    transition-duration:900ms;
+}
+.nav-list a:hover{
+    background-color:rgb(255, 42, 0);;
+}
+.nav-list input{
+    padding: 4px 7px;
+    border-radius: 14px;
+    border: none;
+}
+.nav-list .logo{
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-right:auto;
+    margin-left: 52px;
+}
+.nav-list .user{
+    margin-right:auto;
+    margin-left: 10px;
+}
+.sec-1 img{
+    max-width: 100%;
+}
+.sec-1-text{
+    position: absolute;
+    top:492px;
+    bottom: 120px;
+    left: 60px;
+    text-shadow: 2px 2px 5px rgb(255, 42, 0)
+}
+button{
+    display:flex ;
+    align-items: center;
+    position: absolute;
+    top: 725px;
+    left: 130px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #ff2a00;
+    color: white;
+    font-size: 16px;
+    padding: 7px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sec-1-text h5{
+    font-family: Flamenco;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.sec-1-text p{
+    font-family: Flamenco;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.sec-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 68px;
+}
+.sec-2_img{
+    max-width: 55%;
+    float: right;
+    cursor: url('./Assets/speedometer-cur.png'),pointer;
+}
+.sec-2_para{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 60px;
+}
+.sec-2_para h5{
+    font-family: Flamenco;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.sec-2_para h1{
+    margin: 20px 10px 20px 0px;
+    font-family: Flamenco;
+    font-weight: bolder;
+    font-size: 45px;
+}
+.sec-2_para p{
+    font-family: Flamenco;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 28px;
+}
+.icon-text2{
+    display: flex;
+    margin: 28px 0px 28px 0px;
+    justify-content: space-between;
+}
+
+.sec-3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 68px;
+}
+.sec-3_img{
+    max-width: 75%;
+    cursor: url('./Assets/tuning-cur.png'),pointer;
+}
+.sec-3_para{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    margin-right: 60px;
+}
+.sec-3_para h5{
+    font-family: Flamenco;
+    font-weight: lighter;
+    font-size: 20px;
+}
+.sec-3_para h1{
+    margin: 20px 10px 20px 0px;
+    font-family: Flamenco;
+    font-weight: bolder;
+    font-size: 45px;
+}
+.sec-3_para p{
+    font-family: Flamenco;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 28px;
+}
+.icon-text3{
+    display: flex;
+    margin: 28px 0px 28px 0px;
+    justify-content: space-between;
+}
+.logo{
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    font-size: 25px;
+    list-style-type: none;
+    margin-top:4px;
+    margin-left: 60px;
+    padding: 2px;
+}
+.nav-list-ftr{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding:8px 10px;
+}
+.nav-list-ftr a{
+    padding:8px;
+    margin-right: 8px;
+    border-radius: 8px;
+    padding-right: 10px;
+    color:white;
+    text-decoration: none;
+    transition-duration:900ms;
+}
+.nav-list-ftr a:hover{
+    background-color:rgb(255, 42, 0);;
+}
+
+#movemen{
+    animation: slide 1s ease-out;
+}
+@keyframes slide {
+    from{left:30px}
+    to{left:60px}
+}
